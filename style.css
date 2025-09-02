@@ -1,0 +1,27 @@
+body {
+  font-family: 'Comic Neue', cursive;
+  text-align: center;
+  padding: 50px;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  color: #333;
+}
+
+.soundboard button {
+  margin: 20px;
+  padding: 20px 35px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #da1c1c;
+  color: white;
+  transition: transform 0.1s;
+}
+
+.soundboard button:hover {
+  transform: scale(1.1);
+  background-color: #da1c1c;
+}
